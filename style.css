@@ -1,0 +1,72 @@
+html {
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    color: #222;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #222;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar-top {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.nav-bar-top-left {
+    display: flex;
+    padding: 5px;
+    margin-left: 0 5px;
+}
+
+.nav-bar-top-left li{
+    float: left;
+}
+
+.nav-bar-top-left li a:first-of-type {
+    margin-left: 15px;
+}
+
+.nav-bar-top-right {
+    display: flex;
+}
+
+.nav-bar-top-right li{
+    float: left;
+    padding: 0 4px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+.Apps {
+    color: #5f6368;
+}
+
+.Sign-in a{
+    color: #fff;
+    background: #1a73e8;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 23px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.main-content{
+    display: grid;
+}
+.Google-logo {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
